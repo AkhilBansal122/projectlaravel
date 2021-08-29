@@ -103,3 +103,6 @@ Route::get('/form-validation','App\Http\Controllers\formController@formvalidatio
 //table
 Route::get('/table-bootstrap-basic','App\Http\Controllers\tableController@tablebootstrapbasic')->name("table-bootstrap-basic");
 Route::get('/table-datatable-basic','App\Http\Controllers\tableController@tabledatatablebasic')->name("table-datatable-basic");
+
+//login
+Route::get('/page-login','App\Http\Controllers\LoginController@login')->name("page-login");

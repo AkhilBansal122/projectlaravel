@@ -170,7 +170,7 @@
 							<span class="nav-text">Pages</span>
 						</a>
                         <ul aria-expanded="false">
-                            <li><a href="./page-login.html">Login</a></li>
+                            <li><a href="{{route('page-login')}}">Login</a></li>
                             <li><a href="./page-register.html">Register</a></li>
                             <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
                                 <ul aria-expanded="false">
