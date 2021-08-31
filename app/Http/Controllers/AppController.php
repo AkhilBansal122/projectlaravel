@@ -66,4 +66,8 @@ class AppController extends Controller
     {
         return view('/admin/app/shop/ecomcustomers');
     }
+    public function ecomcustomers2()
+    {
+        return view('/admin/app/shop/ecomcustomers');
+    }
 }
